@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nikesh G Boopathi — AI, Product & Technology</title>
+<meta name="description" content="Nikesh G Boopathi — Computer Science (Big Data & AI) undergraduate and Software Intern at CrimsonLogic.">
+<style>
+:root{--bg:#090b0b;--panel:#0e1110;--text:#f1f3ef;--muted:#8b938d;--line:#252a27;--line2:#343a36;--accent:#c7ff63;--soft:#cbd0cc}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(1160px,calc(100% - 42px));margin:auto}
+header{border-bottom:1px solid var(--line)}.meta{height:42px;display:flex;align-items:center;justify-content:space-between;font:600 10px/1 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+nav{height:62px;display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--line)}.brand{font-size:14px;font-weight:760}.nav{display:flex;gap:25px;color:#aab0ac;font-size:12px}.nav a:hover{color:white}.nav .key{border:1px solid var(--line2);padding:5px 7px;border-radius:5px;font:600 9px monospace}
+.hero{padding:76px 0 72px;border-bottom:1px solid var(--line)}.hero-grid{display:grid;grid-template-columns:1.18fr .82fr;gap:75px;align-items:start}.eyebrow,.label{font:600 10px/1.3 ui-monospace,SFMono-Regular,Menlo,monospace;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}h1{font-size:clamp(62px,8vw,106px);line-height:.92;letter-spacing:-.066em;margin:17px 0 28px;font-weight:720}.lead{font-size:20px;line-height:1.55;letter-spacing:-.015em;color:#c6cbc7;max-width:710px}.lead strong{color:#fff;font-weight:600}.hero-actions{display:flex;gap:20px;margin-top:29px;align-items:center;font-size:12px}.hero-actions a{border-bottom:1px solid #5d655f;padding-bottom:3px}.hero-actions a:first-child{color:var(--accent);border-color:#6f8d43}
+.globe{position:relative;height:310px;margin-top:12px;overflow:hidden}.sphere{position:absolute;width:275px;height:275px;right:12px;top:0;border:1px solid #303632;border-radius:50%;background:radial-gradient(circle at 42% 38%,#18201b 0,#0c100e 47%,#090b0b 71%)}.sphere:before{content:"";position:absolute;inset:12%;border:1px dashed #343b36;border-radius:50%;transform:rotate(38deg)}.sphere:after{content:"";position:absolute;left:50%;top:0;width:1px;height:100%;background:#2b302d;box-shadow:-66px 0 #1d221f,66px 0 #1d221f}.lat{position:absolute;left:0;right:0;height:1px;background:#242a26}.l1{top:27%}.l2{top:50%}.l3{top:73%}.node{position:absolute;width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 15px #c7ff6377}.node:after{content:attr(data-t);position:absolute;white-space:nowrap;left:12px;top:-4px;font:600 9px monospace;color:#aeb8b1}.a{left:27%;top:29%}.b{right:21%;top:42%}.c{left:39%;bottom:25%}.d{right:31%;bottom:17%}.profile{padding:35px 0 0}.profile h2{font-size:15px;margin:0 0 17px}.facts{display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.fact{padding:17px 18px 18px 0;min-height:84px}.fact+.fact{border-left:1px solid var(--line);padding-left:18px}.fact small{display:block;font:600 9px monospace;text-transform:uppercase;color:#69716c;margin-bottom:8px}.fact span{font-size:12px;line-height:1.45;color:#c8ceca}
+section{padding:72px 0;border-bottom:1px solid var(--line)}.section-head{display:grid;grid-template-columns:145px 1fr auto;gap:20px;align-items:baseline;margin-bottom:29px}.section-head h2{font-size:24px;letter-spacing:-.035em;margin:0;font-weight:620}.section-head a{font-size:11px;color:var(--muted);border-bottom:1px solid #424843;padding-bottom:2px}
+.project{display:grid;grid-template-columns:145px 1fr 230px;gap:20px;padding:25px 0;border-top:1px solid var(--line);align-items:start;transition:.2s}.project:last-child{border-bottom:1px solid var(--line)}.project:hover{background:#0c0f0e}.pmeta{font:600 9px/1.7 monospace;text-transform:uppercase;color:#68706b}.project h3{font-size:20px;letter-spacing:-.025em;margin:0 0 8px;font-weight:590}.project p{margin:0;color:#939b95;line-height:1.55;font-size:12px;max-width:650px}.tags{display:flex;gap:5px;flex-wrap:wrap;justify-content:flex-end}.tag{font:600 8px monospace;color:#9ca59f;border:1px solid var(--line2);padding:5px 6px;border-radius:3px}.project .metric{color:var(--accent);font:600 9px monospace;margin-top:11px}
+.experience{display:grid;grid-template-columns:145px 1fr;gap:20px}.timeline{border-top:1px solid var(--line)}.role{display:grid;grid-template-columns:38px 1fr 135px;gap:20px;padding:24px 0;border-bottom:1px solid var(--line)}.idx{font:600 9px monospace;color:#636b66}.role h3{font-size:17px;margin:0 0 3px}.role h4{font-size:11px;margin:0 0 9px;color:#b5bcb7;font-weight:500}.role p{font-size:11px;line-height:1.6;color:#818a84;margin:0;max-width:720px}.date{text-align:right;font:600 9px/1.5 monospace;color:#6d756f;text-transform:uppercase}
+.proofgrid{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.proof{padding:24px 20px 23px 0}.proof+.proof{border-left:1px solid var(--line);padding-left:20px}.proof strong{font-size:34px;letter-spacing:-.055em;font-weight:620;display:block;color:#fff}.proof:first-child strong{color:var(--accent)}.proof span{display:block;font-size:10px;line-height:1.45;color:#777f79;margin-top:8px}
+.skills{display:grid;grid-template-columns:145px 1fr;gap:20px}.skillrows{border-top:1px solid var(--line)}.skillrow{display:grid;grid-template-columns:190px 1fr;padding:19px 0;border-bottom:1px solid var(--line)}.skillrow b{font-size:11px;font-weight:600}.skillrow span{font-size:11px;color:#858e87;line-height:1.65}
+.edu{display:grid;grid-template-columns:1fr 1fr;gap:50px}.edu h3{font-size:12px;margin:0 0 13px}.eduitem{border-top:1px solid var(--line);padding:16px 0}.eduitem:last-child{border-bottom:1px solid var(--line)}.eduitem b{font-size:12px;font-weight:560;display:block}.eduitem span{font-size:10px;color:#777f79;display:block;margin-top:5px;line-height:1.45}
+.contact{padding:75px 0 48px}.contact-grid{display:grid;grid-template-columns:145px 1fr;gap:20px}.contact h2{font-size:38px;letter-spacing:-.045em;margin:0 0 13px}.contact p{font-size:12px;color:#8b938d;line-height:1.6;margin:0 0 18px}.contact-links{display:flex;gap:18px;font-size:11px}.contact-links a{border-bottom:1px solid #48504a;padding-bottom:3px}.contact-links a:first-child{color:var(--accent)}
+footer{padding:24px 0 34px;border-top:1px solid var(--line);display:flex;justify-content:space-between;color:#535a55;font:600 9px monospace}
+.reveal{opacity:0;transform:translateY(8px);transition:.55s ease}.reveal.on{opacity:1;transform:none}
+@media(max-width:800px){.nav a:nth-child(-n+4){display:none}.hero-grid{grid-template-columns:1fr}.globe{display:none}.facts{grid-template-columns:1fr 1fr}.fact{border-bottom:1px solid var(--line)}.fact+.fact{border-left:0;padding-left:0}.fact:nth-child(even){border-left:1px solid var(--line);padding-left:16px}.section-head{grid-template-columns:70px 1fr}.section-head a{display:none}.project{grid-template-columns:70px 1fr}.tags{grid-column:2;justify-content:flex-start}.experience,.skills,.contact-grid{grid-template-columns:70px 1fr}.proofgrid{grid-template-columns:1fr 1fr}.edu{grid-template-columns:1fr}.skillrow{grid-template-columns:1fr;gap:8px}h1{font-size:17vw}.lead{font-size:17px}}@media(max-width:500px){.wrap{width:calc(100% - 28px)}.meta span:last-child{display:none}.facts{grid-template-columns:1fr}.fact:nth-child(even){border-left:0;padding-left:0}.project{grid-template-columns:1fr}.pmeta,.tags{grid-column:1}.section-head{grid-template-columns:1fr}.section-head .label{margin-bottom:-10px}.experience,.skills,.contact-grid{grid-template-columns:1fr}.role{grid-template-columns:25px 1fr}.date{grid-column:2;text-align:left}.proofgrid{grid-template-columns:1fr 1fr}}
+.project h3 a:hover{color:var(--accent)}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap meta"><span>Nikesh G Boopathi / Singapore</span><span>AI · PRODUCT · TECHNOLOGY</span></div>
+<nav class="wrap"><a class="brand" href="#">Nikesh G Boopathi</a><div class="nav"><a href="#work">Work</a><a href="#experience">Experience</a><a href="#skills">Capabilities</a><a href="#education">Credentials</a><a href="#contact">Contact</a><span class="key">⌘ K</span></div></nav>
+</header>
+
+<main>
+<div class="hero"><div class="wrap">
+<div class="hero-grid reveal">
+<div><div class="eyebrow">Computer Science · Big Data & AI</div><h1>Nikesh<br>Boopathi</h1><div class="lead">Software Intern at CrimsonLogic, building across <strong>AI, automation and enterprise technology</strong> — with a business background and a focus on turning technical capability into useful products and measurable outcomes.</div><div class="hero-actions"><a href="#work">Selected work ↓</a><a href="#experience">Experience</a><a target="_blank" href="https://www.linkedin.com/in/nikesh-g-boopathi-9b8a3a248">LinkedIn ↗</a></div></div>
+<div class="globe"><div class="sphere"><i class="lat l1"></i><i class="lat l2"></i><i class="lat l3"></i><i class="node a" data-t="AI"></i><i class="node b" data-t="PRODUCT"></i><i class="node c" data-t="AUTOMATION"></i><i class="node d" data-t="BUSINESS"></i></div></div>
+</div>
+<div class="profile reveal"><h2>Profile at a glance</h2><div class="facts">
+<div class="fact"><small>Focus</small><span>AI / Product / Solutions</span></div>
+<div class="fact"><small>Base</small><span>Singapore</span></div>
+<div class="fact"><small>Current</small><span>Software Intern @ CrimsonLogic</span></div>
+<div class="fact"><small>Background</small><span>Computer Science + Business</span></div>
+<div class="fact"><small>Direction</small><span>AI Product · Solutions · Strategy</span></div>
+</div></div>
+</div></div>
+
+<section id="proof"><div class="wrap reveal">
+<div class="section-head"><div class="label">Proof</div><h2>Impact at a glance</h2></div>
+<div class="proofgrid">
+<div class="proof"><strong>&lt;2h</strong><span>Automated a workflow previously requiring two people over two days.</span></div>
+<div class="proof"><strong>1,001+</strong><span>Transactions per hour in an AI-assisted AML prototype.</span></div>
+<div class="proof"><strong>97%+</strong><span>Detection accuracy achieved in prototype testing.</span></div>
+<div class="proof"><strong>Top 1</strong><span>SDG Open Hack 2025 — TextiBrick.</span></div>
+</div></div></section>
+
+<section id="work"><div class="wrap reveal">
+<div class="section-head"><div class="label">01 / Work</div><h2>Selected work</h2><span></span></div>
+
+<article class="project"><div class="pmeta">Enterprise<br>2026 — Present</div><div><h3><a href="work/crimsonlogic.html">Enterprise Workflow Automation · CrimsonLogic ↗</a></h3><p>Automated a workflow previously requiring two people over two days, reducing execution time to under two hours while working across enterprise testing, APIs, defects and cross-functional releases.</p><div class="metric">2 PEOPLE × 2 DAYS → &lt; 2 HOURS</div></div><div class="tags"><span class="tag">AUTOMATION</span><span class="tag">APIs</span><span class="tag">ENTERPRISE</span><span class="tag">QA</span></div></article>
+
+<article class="project"><div class="pmeta">Agentic AI<br>Innovation Challenge</div><div><h3><a href="work/aml.html">AML Monitoring & Document Corroboration ↗</a></h3><p>AI-assisted RegTech prototype combining transaction monitoring and document corroboration for financial compliance workflows, built around measurable throughput and detection performance.</p><div class="metric">1,001+ TX/H · 97%+ DETECTION · &lt;100MS API</div></div><div class="tags"><span class="tag">AGENTIC AI</span><span class="tag">REGTECH</span><span class="tag">FINTECH</span><span class="tag">LLM</span></div></article>
+
+<article class="project"><div class="pmeta">AI Product<br>8-hour build</div><div><h3><a href="work/study-assistant.html">AI Study Assistant ↗</a></h3><p>Built a working study product that transforms uploaded material into prioritised revision content, flashcards, quizzes and interactive AI tutoring within an eight-hour hackathon.</p></div><div class="tags"><span class="tag">NEXT.JS</span><span class="tag">TYPESCRIPT</span><span class="tag">OPENAI API</span><span class="tag">PRODUCT</span></div></article>
+
+<article class="project"><div class="pmeta">FinTech<br>Product project</div><div><h3><a href="work/roundinvest.html">RoundInvest ↗</a></h3><p>Micro-investing product concept centred on automated round-ups, configurable allocations and user-facing analytics, with emphasis on accessibility, customer flow and practical product design.</p></div><div class="tags"><span class="tag">FINTECH</span><span class="tag">PRODUCT</span><span class="tag">STRATEGY</span><span class="tag">UX</span></div></article>
+
+<article class="project"><div class="pmeta">ML / Data<br>Independent build</div><div><h3><a href="work/guest-feedback.html">Guest Feedback Intelligence ↗</a></h3><p>Python and Streamlit application for cleaning guest-feedback data, classifying sentiment and surfacing recurring themes — including deliberate testing of model failure cases.</p></div><div class="tags"><span class="tag">PYTHON</span><span class="tag">STREAMLIT</span><span class="tag">NLP</span><span class="tag">ML</span></div></article>
+</div></section>
+
+<section id="experience"><div class="wrap reveal">
+<div class="section-head"><div class="label">02 / Experience</div><h2>Experience</h2></div>
+<div class="experience"><div></div><div class="timeline">
+<div class="role"><div class="idx">01</div><div><h3>CrimsonLogic</h3><h4>Software Intern</h4><p>Enterprise software delivery across testing, automation, APIs and internal tools. Collaborated with developers, business analysts and QA teams while improving repeatability and efficiency across release workflows.</p></div><div class="date">Jun 2026 — Present<br>Singapore</div></div>
+<div class="role"><div class="idx">02</div><div><h3>SIM Innovation and Networking Society (IONS)</h3><h4>Associate</h4><p>Created educational content around AI, emerging technology and innovation; helped deliver workshops, talks and networking initiatives; and worked with committee members and stakeholders to improve student engagement.</p></div><div class="date">Oct 2025 — Jun 2026<br>Singapore</div></div>
+<div class="role"><div class="idx">03</div><div><h3>Singapore Army</h3><h4>National Serviceman</h4><p>Completed two years of full-time National Service, building discipline, reliability and experience operating within structured teams.</p></div><div class="date">Mar 2023 — Mar 2025<br>Singapore</div></div>
+</div></div></div></section>
+
+<section id="skills"><div class="wrap reveal">
+<div class="section-head"><div class="label">03 / Capabilities</div><h2>Capabilities</h2></div>
+<div class="skills"><div></div><div class="skillrows">
+<div class="skillrow"><b>AI & Data</b><span>Generative AI · LLMs · Prompt Engineering · Machine Learning · Python · SQL · Pandas · NumPy · scikit-learn</span></div>
+<div class="skillrow"><b>Product & Business</b><span>Product Strategy · Problem Framing · Requirements Analysis · Stakeholder Communication · Process Improvement · Product Pitching</span></div>
+<div class="skillrow"><b>Software & Tools</b><span>TypeScript · JavaScript · React · Next.js · Flask · REST APIs · Postman · Jira · Git/GitHub</span></div>
+<div class="skillrow"><b>Delivery</b><span>Agile · SDLC · Cross-functional Collaboration · Test Automation · UAT · Documentation</span></div>
+</div></div></div></section>
+
+<section id="education"><div class="wrap reveal">
+<div class="section-head"><div class="label">04 / Background</div><h2>Education & credentials</h2></div>
+<div class="edu">
+<div><h3>Education</h3><div class="eduitem"><b>University of Wollongong / SIM Global Education</b><span>Bachelor of Computer Science — Big Data & AI · Expected Apr 2028</span></div><div class="eduitem"><b>PSB Academy</b><span>Diploma in Business Administration</span></div></div>
+<div><h3>Credentials & recognition</h3>
+<div class="eduitem"><b>IBM AI Product Manager Professional Certificate</b><span>IBM · AI product management</span></div>
+<div class="eduitem"><b>Oracle Cloud Infrastructure AI Foundations Associate</b><span>Oracle · AI and cloud foundations</span></div>
+<div class="eduitem"><b>AI4I® Literacy in AI</b><span>AI Singapore · AI literacy</span></div>
+<div class="eduitem"><b>Prompt Engineering and Advanced ChatGPT</b><span>edX · Issued Dec 2025</span></div>
+<div class="eduitem"><b>Top 1 — SDG Open Hack 2025</b><span>TextiBrick · sustainability innovation</span></div>
+</div></div>
+</div></div></section>
+
+<div class="contact" id="contact"><div class="wrap reveal"><div class="contact-grid"><div class="label">05 / Contact</div><div><h2>Let's build something useful.</h2><p>Open to 2027 opportunities across AI Product, Solutions, Strategy and technology-focused business roles.</p><div class="contact-links"><a target="_blank" href="https://www.linkedin.com/in/nikesh-g-boopathi-9b8a3a248">LinkedIn ↗</a><a href="mailto:Nikeshboopath@gmail.com">Email ↗</a></div></div></div></div></div>
+</main>
+
+<footer class="wrap"><span>© 2026 Nikesh G Boopathi</span><span>Singapore · AI / Product / Technology</span></footer>
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('on')}),{threshold:.08});document.querySelectorAll('.reveal').forEach(x=>io.observe(x));
+document.querySelector('.key').onclick=()=>{const q=prompt('Jump to: work, experience, capabilities, education, contact');if(q){const m={work:'work',experience:'experience',capabilities:'skills',skills:'skills',education:'education',contact:'contact'}[q.toLowerCase().trim()];if(m)document.getElementById(m).scrollIntoView({behavior:'smooth'})}};
+</script>
+</body></html>
